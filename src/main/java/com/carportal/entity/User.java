@@ -20,7 +20,7 @@ public class User {
     private String mobile;
 
     @Column(name = "password", nullable = false,unique = true)
-    private String password;
+    private String password ;
 
     public String getUsername() {
         return username;
