@@ -6,7 +6,7 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.web.SecurityFilterChain;
 
 @Configuration
-//security config add
+//security config add  done
 public class SecurityConfig {
     @Bean
     public SecurityFilterChain securityFilterChain(
